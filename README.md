@@ -58,10 +58,10 @@ USE concessionaria;
    No terminal do XAMPP (clique em **Shell** no painel), digite:
 
 ```sql
-SOURCE C:/xampp/htdocs/projeto-concessionaria/banco.sql;
+SOURCE C:/xampp/htdocs/projeto-concessionaria-main/banco.sql;
 ```
 6. Execute o projeto no navegador:
-   http://localhost/projeto-concessionaria/index.php
+   http://localhost/projeto-concessionaria-main/index.php
 
 
 
