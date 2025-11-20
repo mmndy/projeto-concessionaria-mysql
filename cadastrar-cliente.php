@@ -7,37 +7,39 @@
     <input type="hidden" name="acao" value="cadastrar">
 
     <!-- Campo para digitar o nome do cliente -->
-    <div>
+    <div div class="mb-3">
         <label>Nome
-            <input type="text" name="nome_cliente">
+            <input type="text" name="nome_cliente"  class="form-control">
         </label>
     </div>
 
     <!-- Campo para digitar o e-mail do cliente -->
-    <div>
+    <div div class="mb-3">
         <label>E-mail
-            <input type="text" name="email_cliente">
+            <input type="text" name="email_cliente" class="form-control">
         </label>
     </div>
 
     <!-- Campo para digitar o telefone do cliente -->
-    <div>
+    <div div class="mb-3">
         <label>Telefone
-            <input type="text" name="telefone_cliente">
+            <input type="text" name="telefone_cliente" class="form-control">
         </label>
     </div>
-    <div>
+    <div class="mb-3">
         <label>Endereço
-            <input type="text" name="telefone_cliente">
+            <input type="text" name="telefone_cliente" class="form-control">
         </label>
     </div>
-    <div>
+    <div class="mb-3">
         <label>Data de Nascimento
-            <input type="date" name="dt_nasc_cliente">
+            <input type="date" name="dt_nasc_cliente" class="form-control">
         </label>
     </div>
-        <!-- Botão que envia o formulário -->
+
+    <br>
+
     <div>
-        <button type="submit">Enviar</button>
+        <button type="submit" class="btn btn-primary">Enviar</button>
     </div>
 </form>
